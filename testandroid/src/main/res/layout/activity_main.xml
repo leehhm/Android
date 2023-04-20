@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트 메시지 띄우기"
+        android:textColor="#388E3C"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maptest"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1976D2"
+        android:gravity="center"
+        android:text="되돌아기기 버튼을 눌렀을때 토스트 메시지를 띄워주시고 화면에 출력되는 시간을 짧게 설정하세요."
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
